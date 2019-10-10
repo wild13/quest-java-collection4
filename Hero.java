@@ -1,9 +1,11 @@
+
+
 public class Hero {
 
     private String name;
-    private int age;
+    private int    age;
 
-    public Hero(String name, int age) {
+    public Hero( String name, int age ) {
         this.name = name;
         this.age = age;
     }
@@ -16,11 +18,11 @@ public class Hero {
         return age;
     }
 
-    public void setName(String name) {
+    public void setName( String name ) {
         this.name = name;
     }
 
-    public void setAge(int age) {
+    public void setAge( int age ) {
         this.age = age;
     }
 }
